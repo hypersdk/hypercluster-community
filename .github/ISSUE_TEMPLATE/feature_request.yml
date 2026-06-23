@@ -1,0 +1,27 @@
+name: Feature request
+description: Suggest a new feature or improvement for hypercluster
+title: "[Feature]: "
+labels: ["enhancement", "needs-triage"]
+body:
+  - type: textarea
+    id: problem
+    attributes:
+      label: Problem to solve
+      description: What problem should this feature solve? Focus on the why, not just what you want.
+    validations:
+      required: true
+
+  - type: textarea
+    id: solution
+    attributes:
+      label: Suggested solution
+    validations:
+      required: true
+
+  - type: textarea
+    id: workaround
+    attributes:
+      label: Current workaround
+      description: How do you handle this today?
+    validations:
+      required: false

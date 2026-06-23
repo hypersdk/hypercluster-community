@@ -1,0 +1,63 @@
+name: Bug report
+description: Report a problem with hypercluster
+title: "[Bug]: "
+labels: ["bug", "needs-triage"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting an issue. Do not include secrets, tokens, private keys, customer data, or internal logs.
+
+  - type: input
+    id: component
+    attributes:
+      label: Component / area
+      placeholder: "e.g. UI, API, CLI, TUI, operator, networking"
+    validations:
+      required: false
+
+  - type: textarea
+    id: problem
+    attributes:
+      label: What happened?
+      description: Describe the problem clearly.
+    validations:
+      required: true
+
+  - type: textarea
+    id: expected
+    attributes:
+      label: Expected behavior
+    validations:
+      required: true
+
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshots
+    attributes:
+      label: Screenshots / logs
+      description: Drag and drop images here. Redact any secrets before pasting logs.
+    validations:
+      required: false
+
+  - type: input
+    id: environment
+    attributes:
+      label: Environment
+      placeholder: "OS, Kubernetes version, cluster setup, browser"
+    validations:
+      required: false
+
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      placeholder: "e.g. 1.1.0"
+    validations:
+      required: false

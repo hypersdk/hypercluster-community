@@ -1,0 +1,26 @@
+name: UX feedback
+description: Report a layout, design, visibility, or usability problem in hypercluster
+title: "[UX]: "
+labels: ["ux", "needs-triage"]
+body:
+  - type: textarea
+    id: issue
+    attributes:
+      label: UX problem
+    validations:
+      required: true
+
+  - type: textarea
+    id: improvement
+    attributes:
+      label: Suggested improvement
+    validations:
+      required: false
+
+  - type: textarea
+    id: screenshot
+    attributes:
+      label: Screenshot
+      description: Drag and drop screenshot here.
+    validations:
+      required: false

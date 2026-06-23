@@ -1,0 +1,11 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Security vulnerability
+    url: mailto:security@zyvor.dev
+    about: Report security vulnerabilities privately — do not open a public issue.
+  - name: GitHub Discussions
+    url: https://github.com/hypersdk/hypercluster-community/discussions
+    about: Questions, ideas, and open-ended feedback.
+  - name: Enterprise support
+    url: mailto:hello@zyvor.dev
+    about: Enterprise support and licensing enquiries.
