@@ -1,4 +1,3 @@
----
 > 🚀 **Trial v0.30.0 is live!** The latest release is available for trial today — [get started in 5 minutes →](#try-v030-in-5-minutes)
 
 # HyperCluster — Community
